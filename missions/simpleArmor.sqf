@@ -12,9 +12,9 @@ _xPos = (_mPos select 0) + (_offset select 0);
 _yPos = (_mPos select 1) + (_offset select 1);
 _mPos = [_xPos, _yPos, (_mPos select 2)];
 
-_spawnPos = _mPos findEmptyPosition [0, 50, "rhs_bmp1_vdv"];
+_spawnPos = _mPos findEmptyPosition [0, 50, "CUP_I_BRDM2_UN"];
 
-_vehicle = "rhs_bmp1_vdv" createVehicle _spawnPos;
+_vehicle = "CUP_I_BRDM2_UN" createVehicle _spawnPos;
 _vehicle setFuel 0.25;
 _vehicle lock true;
 
