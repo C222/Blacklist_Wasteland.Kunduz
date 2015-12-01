@@ -571,7 +571,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=7;
+		items=11;
 		class Item0
 		{
 			position[]={6287.8481,13,6187.3652};
@@ -630,6 +630,46 @@ class Mission
 			a=3750;
 			b=3750;
 			drawBorder=1;
+		};
+		class Item7
+		{
+			position[]={1197.1331,38.911198,3753.979};
+			name="talkar";
+			text="Tal Kar";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item8
+		{
+			position[]={1487.0459,28.068684,2701.509};
+			name="chahardara";
+			text="Chahar Dara";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item9
+		{
+			position[]={2086.7561,38.220001,3103.4729};
+			name="karsheke";
+			text="Kar Shek East";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=225;
+			b=225;
+		};
+		class Item10
+		{
+			position[]={1769.8965,31.32,3302.1465};
+			name="karshekw";
+			text="Kar Shek West";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
 		};
 	};
 };

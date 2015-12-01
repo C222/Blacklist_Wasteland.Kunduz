@@ -1,4 +1,4 @@
-vehicleCount = [500, 100, 85, 15];
+vehicleCount = [125, 25, 20, 5];
 readyForSpawn = false;
 
 publicVariable "readyForSpawn";
