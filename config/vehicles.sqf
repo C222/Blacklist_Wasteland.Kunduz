@@ -1,0 +1,13 @@
+[
+// Common
+	[],
+	
+// Luxury
+	[],
+	
+// Rare
+	[],
+	
+// Special
+	[]
+]

@@ -1,0 +1,30 @@
+#include "defines.hpp"
+#include "dialogs.hpp"
+
+#include "plank\plank.hpp"
+
+version = "0.8.4";
+onLoadMission = "Blacklist Wasteland [0.8.4] - Chernarus";
+respawn = "BASE";
+disabledAI = 1;
+author = "C222";
+saving = 0;
+
+respawnTemplates[] = {"Revive"};
+
+class CfgFunctions
+{
+	#include "config\CfgFunctions.hpp"
+};
+
+class CfgRemoteExecCommands
+{
+	class hint {};
+};
+
+startFogBase = 10.0;          // base altitude for fog computations (in meters)
+forecastFogBase = 0.0;
+startFogDecay = 0.005;       // decay coefficient - decay of fog with altitude
+forecastFogDecay = 0.005;
+fogBeta0Min = 0.0001;        // beta0 (macroscopic cross-section of atmospheric scatterers at base level) for fog value 0
+fogBeta0Max = 0.02;          // beta0 (macroscopic cross-section of atmospheric scatterers at base level) for fog value 1
