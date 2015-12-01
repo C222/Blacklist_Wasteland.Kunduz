@@ -40,6 +40,19 @@ while {true} do
 	if (_water_level == 0) then {_heal_factor = _heal_factor - 0.015};
 	if (_food_level == 0) then {_heal_factor = _heal_factor - 0.015};
 	
+	_south_of = (getPos player select 1) < 0;
+	_east_of = (getPos player select 0) < 0;
+	_north_of = (getPos player select 1) > 5120;
+	_west_of = (getPos player select 0) > 5120;
+	
+	if (!dialog and (_south_of or _north_of or _west_of or _east_of)) then
+	{
+		_heal_factor = -.01;
+		1869 cutText ["Return to map!", "PLAIN", 0, true];
+	} else {
+		1869 cutFadeOut 0;
+	};
+	
 	player setDamage (damage player) - _heal_factor;
 	
 	_health = damage player;
