@@ -5,12 +5,14 @@ class Mission
 	{
 		"A3_Characters_F_Kart",
 		"A3_Structures_F_Civ_InfoBoards",
-		"aia_chernarus_config"
+		"pra3_kz",
+		"CUP_Creatures_People_Military_DummyInfantrySet"
 	};
 	addOnsAuto[]=
 	{
+		"CUP_Creatures_People_Military_DummyInfantrySet",
 		"A3_Structures_F_Civ_InfoBoards",
-		"aia_chernarus_config"
+		"pra3_kz"
 	};
 	randomSeed=11986584;
 	class Intel
@@ -41,10 +43,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3834.4739,382.72668,9839.9814};
+					position[]={-2111.8772,53.392776,2925.7661};
 					id=0;
 					side="GUER";
-					vehicle="rhs_g_Soldier_lite_F";
+					vehicle="CUP_I_GUE_Soldier_AKS74";
 					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
@@ -60,10 +62,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3489.104,382.85876,9840.7256};
+					position[]={-2108.8103,53.405609,2925.9314};
 					id=1;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_riflemanl";
+					vehicle="CUP_B_US_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -79,10 +81,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3124.0039,380.0542,9825.2959};
+					position[]={-2114.8616,53.403759,2925.9075};
 					id=2;
 					side="EAST";
-					vehicle="rhs_msv_rifleman";
+					vehicle="CUP_O_RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -100,10 +102,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3845.0754,413.50388,10134.173};
+					position[]={-2111.8652,53.342583,2925.1206};
 					id=3;
 					side="GUER";
-					vehicle="rhs_g_Soldier_lite_F";
+					vehicle="CUP_I_GUE_Soldier_AKS74";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -119,10 +121,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3499.7056,413.5632,10134.915};
+					position[]={-2108.7515,53.359947,2925.3438};
 					id=4;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_riflemanl";
+					vehicle="CUP_B_US_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -138,10 +140,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3134.605,412.4425,10119.487};
+					position[]={-2114.8264,53.349865,2925.2141};
 					id=5;
 					side="EAST";
-					vehicle="rhs_msv_rifleman";
+					vehicle="CUP_O_RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -157,10 +159,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3839.7747,444.30524,10470.767};
+					position[]={-2111.9006,53.306572,2924.4858};
 					id=6;
 					side="GUER";
-					vehicle="rhs_g_Soldier_lite_F";
+					vehicle="CUP_I_GUE_Soldier_AKS74";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -176,10 +178,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3494.4058,444.3587,10471.509};
+					position[]={-2108.7397,53.313892,2924.627};
 					id=7;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_riflemanl";
+					vehicle="CUP_B_US_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -195,10 +197,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3129.3047,443.06262,10456.083};
+					position[]={-2114.8264,53.307175,2924.4973};
 					id=8;
 					side="EAST";
-					vehicle="rhs_msv_rifleman";
+					vehicle="CUP_O_RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -214,10 +216,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3835.7932,391.57764,9894.083};
+					position[]={-2111.9124,53.271271,2923.8042};
 					id=9;
 					side="GUER";
-					vehicle="rhs_g_Soldier_lite_F";
+					vehicle="CUP_I_GUE_Soldier_AKS74";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -233,10 +235,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3474.5894,408.34555,10028.099};
+					position[]={-2108.7634,53.280392,2923.9805};
 					id=10;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_riflemanl";
+					vehicle="CUP_B_US_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -252,10 +254,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3139.8379,401.72711,9950.6514};
+					position[]={-2114.8264,53.272488,2923.8276};
 					id=11;
 					side="EAST";
-					vehicle="rhs_msv_rifleman";
+					vehicle="CUP_O_RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -273,10 +275,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3842.4358,420.49112,10198.831};
+					position[]={-2111.9827,53.235981,2923.123};
 					id=12;
 					side="GUER";
-					vehicle="rhs_g_Soldier_lite_F";
+					vehicle="CUP_I_GUE_Soldier_AKS74";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -292,10 +294,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3493.1079,425.00504,10239.158};
+					position[]={-2108.822,53.24202,2923.2397};
 					id=13;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_riflemanl";
+					vehicle="CUP_B_US_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -311,10 +313,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3141.2026,420.28818,10197.339};
+					position[]={-2114.7791,53.238369,2923.1692};
 					id=14;
 					side="EAST";
-					vehicle="rhs_msv_rifleman";
+					vehicle="CUP_O_RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -330,10 +332,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3835.8157,449.76157,10522.228};
+					position[]={-2111.9592,53.190525,2922.3359};
 					id=15;
 					side="GUER";
-					vehicle="rhs_g_Soldier_lite_F";
+					vehicle="CUP_I_GUE_Soldier_AKS74";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -349,10 +351,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3497.0444,428.50586,10335.603};
+					position[]={-2108.7397,53.206749,2922.5588};
 					id=16;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_riflemanl";
+					vehicle="CUP_B_US_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -368,10 +370,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3137.2217,428.05447,10328.087};
+					position[]={-2114.7205,53.195187,2922.394};
 					id=17;
 					side="EAST";
-					vehicle="rhs_msv_rifleman";
+					vehicle="CUP_O_RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -387,10 +389,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3833.1536,406.56525,9993.0498};
+					position[]={-2111.8772,53.137566,2921.6772};
 					id=18;
 					side="GUER";
-					vehicle="rhs_g_Soldier_lite_F";
+					vehicle="CUP_I_GUE_Soldier_AKS74";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -406,10 +408,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3473.27,397.51932,9927.8154};
+					position[]={-2108.7751,53.161213,2921.9714};
 					id=19;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_riflemanl";
+					vehicle="CUP_B_US_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -425,10 +427,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3131.9209,392.19391,9897.8721};
+					position[]={-2114.6853,53.137589,2921.6775};
 					id=20;
 					side="EAST";
-					vehicle="rhs_msv_rifleman";
+					vehicle="CUP_O_RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -446,10 +448,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3823.9622,427.21872,10300.435};
+					position[]={-2111.9241,53.084751,2921.02};
 					id=21;
 					side="GUER";
-					vehicle="rhs_g_Soldier_lite_F";
+					vehicle="CUP_I_GUE_Soldier_AKS74";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -465,10 +467,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3477.2739,449.66476,10521.543};
+					position[]={-2108.7986,53.085682,2921.0317};
 					id=22;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_riflemanl";
+					vehicle="CUP_B_US_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -484,10 +486,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3137.2437,464.48141,10627.512};
+					position[]={-2114.8381,53.066746,2920.7961};
 					id=23;
 					side="EAST";
-					vehicle="rhs_msv_rifleman";
+					vehicle="CUP_O_RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -503,10 +505,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3830.5374,463.72845,10619.876};
+					position[]={-2111.9124,53.026173,2920.2915};
 					id=24;
 					side="GUER";
-					vehicle="rhs_g_Soldier_lite_F";
+					vehicle="CUP_I_GUE_Soldier_AKS74";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -522,10 +524,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3481.2095,461.81738,10600.829};
+					position[]={-2108.9277,53.017685,2920.1858};
 					id=25;
 					side="WEST";
-					vehicle="rhsusf_army_ucp_riflemanl";
+					vehicle="CUP_B_US_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -541,10 +543,10 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={-3129.3042,451.11081,10531.298};
+					position[]={-2114.9319,53.012928,2920.1265};
 					id=26;
 					side="EAST";
-					vehicle="rhs_msv_rifleman";
+					vehicle="CUP_O_RU_Soldier";
 					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
@@ -558,7 +560,7 @@ class Mission
 		items=1;
 		class Item0
 		{
-			position[]={7749.6138,329.44415,7325.1016};
+			position[]={5014.5049,7.6983466,1187.3077};
 			azimut=-18.187504;
 			id=27;
 			side="EMPTY";
@@ -569,50 +571,49 @@ class Mission
 	};
 	class Markers
 	{
-		items=9;
+		items=7;
 		class Item0
 		{
-			position[]={8672.2168,6.5597987,2430.9585};
-			name="Pik";
-			text="Pik Kozlova";
-			markerType="ELLIPSE";
+			position[]={6287.8481,13,6187.3652};
+			name="respawn_west";
 			type="Empty";
-			colorName="ColorKhaki";
-			a=50;
-			b=50;
 		};
 		class Item1
 		{
-			position[]={13355.271,94,12866.101};
-			name="Olsha";
-			text="Olsha";
-			markerType="ELLIPSE";
+			position[]={6310.0645,13,6188.8843};
+			name="respawn_east";
 			type="Empty";
-			a=100;
-			b=100;
 		};
 		class Item2
 		{
-			position[]={-902.2287,445.30258,14490.539};
-			name="respawn_west";
+			position[]={6300.7603,13,6174.8325};
+			name="respawn_guerilla";
 			type="Empty";
 		};
 		class Item3
 		{
-			position[]={-428.51575,446.85242,14506.873};
-			name="respawn_east";
+			position[]={5184.3652,13.762265,1165.8008};
+			name="debug";
+			text="Debug";
+			markerType="ELLIPSE";
 			type="Empty";
+			a=20;
+			b=20;
 		};
 		class Item4
 		{
-			position[]={-602.75488,347.617,14109.391};
-			name="respawn_guerilla";
+			position[]={5181.752,16.991718,1042.2559};
+			name="debug_1";
+			text="Debug";
+			markerType="ELLIPSE";
 			type="Empty";
+			a=20;
+			b=20;
 		};
 		class Item5
 		{
-			position[]={-3646.1748,412.89688,10126.163};
-			name="debug";
+			position[]={5167.459,10.405813,1294.7906};
+			name="debug_2";
 			text="Debug";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -621,33 +622,13 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={-3501.0259,413.81311,10138.038};
-			name="debug_1";
-			text="Debug";
-			markerType="ELLIPSE";
-			type="Empty";
-			a=20;
-			b=20;
-		};
-		class Item7
-		{
-			position[]={-3986.614,478.81097,10688.289};
-			name="debug_2";
-			text="Debug";
-			markerType="ELLIPSE";
-			type="Empty";
-			a=20;
-			b=20;
-		};
-		class Item8
-		{
-			position[]={7081.0903,327.43921,8344.9971};
+			position[]={2573.3779,6.7023039,2546.1155};
 			name="whole_map";
 			markerType="ELLIPSE";
 			type="Empty";
 			fillName="Border";
-			a=10000;
-			b=10000;
+			a=3750;
+			b=3750;
 			drawBorder=1;
 		};
 	};
@@ -656,12 +637,11 @@ class Intro
 {
 	addOns[]=
 	{
-		"chernarus",
-		"aia_chernarus_config"
+		"pra3_kz"
 	};
 	addOnsAuto[]=
 	{
-		"aia_chernarus_config"
+		"pra3_kz"
 	};
 	randomSeed=16482725;
 	class Intel
@@ -684,12 +664,11 @@ class OutroWin
 {
 	addOns[]=
 	{
-		"chernarus",
-		"aia_chernarus_config"
+		"pra3_kz"
 	};
 	addOnsAuto[]=
 	{
-		"aia_chernarus_config"
+		"pra3_kz"
 	};
 	randomSeed=7774233;
 	class Intel
@@ -712,12 +691,11 @@ class OutroLoose
 {
 	addOns[]=
 	{
-		"chernarus",
-		"aia_chernarus_config"
+		"pra3_kz"
 	};
 	addOnsAuto[]=
 	{
-		"aia_chernarus_config"
+		"pra3_kz"
 	};
 	randomSeed=2929229;
 	class Intel
