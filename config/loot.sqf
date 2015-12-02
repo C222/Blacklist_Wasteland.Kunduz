@@ -58,7 +58,7 @@
 	"CUP_srifle_LeeEnfield", "CUP_LeeEnfield",
 	"CUP_PMC_AS50_scoped",
 	"CUP_ksvk",
-	"CUP_M107"
+	"CUP_M107",
 	
 	"CUP_AA12_PMC", "CUP_AA12_PMC",
 	"CUP_M1014", "CUP_M1014",
