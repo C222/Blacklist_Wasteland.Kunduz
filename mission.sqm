@@ -571,7 +571,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=11;
+		items=29;
 		class Item0
 		{
 			position[]={6287.8481,13,6187.3652};
@@ -670,6 +670,175 @@ class Mission
 			type="Empty";
 			a=150;
 			b=150;
+		};
+		class Item11
+		{
+			position[]={1377.598,42.801079,3268.4583};
+			name="farm1";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=100;
+			b=100;
+		};
+		class Item12
+		{
+			position[]={701.61615,20.56102,4485.5288};
+			name="pradesh";
+			text="Pradesh";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=175;
+			b=175;
+		};
+		class Item13
+		{
+			position[]={476.8902,41.02335,4314.8613};
+			name="ruins1";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=75;
+			b=75;
+		};
+		class Item14
+		{
+			position[]={285.01376,25.163738,3501.1685};
+			name="ruins2";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=50;
+			b=50;
+		};
+		class Item15
+		{
+			position[]={1007.0897,34.137516,2551.6509};
+			name="ruins3";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=75;
+			b=75;
+		};
+		class Item16
+		{
+			position[]={892.18658,58.423321,2185.7422};
+			name="ruins4";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=50;
+			b=50;
+		};
+		class Item17
+		{
+			position[]={421.93088,22.791044,3746.7329};
+			name="field1";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=500;
+			b=500;
+		};
+		class Item18
+		{
+			position[]={547.54657,5.0296388,2627.1052};
+			name="field2";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=600;
+			b=600;
+		};
+		class Item19
+		{
+			position[]={1469.7046,5.6430373,4577.0654};
+			name="field3";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=500;
+			b=500;
+		};
+		class Item20
+		{
+			position[]={1653.7772,8.8493719,1400.6805};
+			name="nagel";
+			text="Nagel";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=100;
+			b=100;
+		};
+		class Item21
+		{
+			position[]={910.23468,7.6866579,1213.6982};
+			name="alka";
+			text="Al Ka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=75;
+			b=75;
+		};
+		class Item22
+		{
+			position[]={2331.4766,39.009212,406.02203};
+			name="talgozar";
+			text="Tal Gozar";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item23
+		{
+			position[]={1236.6804,34.617096,453.2074};
+			name="talgozarw";
+			text="Tal Gozar West";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item24
+		{
+			position[]={2410.0674,6.9680347,1843.2062};
+			name="titoli";
+			text="Titoli";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item25
+		{
+			position[]={1645.7197,4.3414559,1859.1022};
+			name="field4";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item26
+		{
+			position[]={2077.176,3.5898719,1141.1239};
+			name="field5";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item27
+		{
+			position[]={2273.6665,6.9682212,3926.5564};
+			name="field6";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=500;
+			b=500;
+		};
+		class Item28
+		{
+			position[]={3356.417,7.4120674,1120.9011};
+			name="tappehka";
+			text="Tappeh Ka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
 		};
 	};
 };
