@@ -14,7 +14,15 @@
 	"CUP_arifle_G36A", "CUP_arifle_G36A_camo",
 	"CUP_arifle_G36K", "CUP_arifle_G36K_camo",
 	"CUP_arifle_G36C", "CUP_arifle_G36C_holo_snds", "CUP_arifle_G36C_camo", "CUP_arifle_G36C_camo_holo_snds",
-	"CUP_arifle_L85A2_Holo_laser", "CUP_arifle_L85A2_SUSAT_Laser", "CUP_arifle_L85A2_ACOG_Laser", "CUP_arifle_L85A2_GL", "CUP_arifle_L85A2_GL_Holo_laser", "CUP_arifle_L85A2_GL_SUSAT_Laser", "CUP_arifle_L85A2_GL_ACOG_Laser"
+	"CUP_arifle_L85A2_Holo_laser", "CUP_arifle_L85A2_SUSAT_Laser", "CUP_arifle_L85A2_ACOG_Laser", "CUP_arifle_L85A2_GL", "CUP_arifle_L85A2_GL_Holo_laser", "CUP_arifle_L85A2_GL_SUSAT_Laser", "CUP_arifle_L85A2_GL_ACOG_Laser",
+	"CUP_arifle_M16A2", "CUP_arifle_M16A2_GL",
+	"CUP_arifle_M16A4_Base", "CUP_arifle_M16A4_GL", "CUP_arifle_M16A4_Aim_Laser", "CUP_arifle_M16A4_ACOG_Laser", "CUP_arifle_M16A4_GL_Laser", "CUP_arifle_M16A4_GL_ACOG_Laser",
+	"CUP_arifle_M4A1_BUIS_GL", "CUP_arifle_M4A1_BUIS_camo_GL", "CUP_arifle_M4A1_BUIS_desert_GL", "CUP_arifle_M4A1", "CUP_arifle_M4A1_camo", "CUP_arifle_M4A1_black", "CUP_arifle_M4A1_desert", "CUP_arifle_M4A1_camo_Aim", "CUP_arifle_M4A1_Aim", "CUP_arifle_M4A1_camo_AIM_snds", "CUP_arifle_M4A1_GL_Holo_Flashlight", "CUP_arifle_M4A1_GL_ACOG_Flashlight", "CUP_arifle_M4A1_camo_GL_Holo_Flashlight", "CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds",
+	"CUP_arifle_M4A3_desert", "CUP_arifle_M4A3_desert_Aim_Flashlight", "CUP_arifle_M4A3_desert_GL_ACOG_Laser",
+	"CUP_arifle_Sa58P", "CUP_arifle_Sa58P_des",
+	"CUP_arifle_Sa58V", "CUP_arifle_Sa58V_ACOG_Laser", "CUP_arifle_Sa58V_Aim_Laser", "CUP_arifle_Sa58V_camo",
+	"CUP_arifle_Sa58RIS1", "CUP_arifle_Sa58RIS1_Aco_Laser", "CUP_arifle_Sa58RIS1_des", "CUP_arifle_Sa58RIS1_camo_Aco_Laser",
+	"CUP_arifle_Sa58RIS2", "CUP_arifle_Sa58RIS2_Arco_Laser", "CUP_arifle_Sa58RIS2_gl", "CUP_arifle_Sa58RIS2_camo", "CUP_arifle_Sa58RIS2_camo_Arco_Laser"
 	],
 	// Pistols
 	["CUP_hgun_Colt1911"],
