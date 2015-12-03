@@ -2,11 +2,19 @@ _thePlayer = _this select 0;
 
 _thePlayer setPos [-20000 - (random 10000), 5000 + random 15000, 0];
 
-removeGoggles _thePlayer;
 removeAllWeapons _thePlayer;
-removeAllContainers _thePlayer;
-// removeAllAssignedItems _thePlayer;
+removeAllItems _thePlayer;
+removeAllAssignedItems _thePlayer;
+removeUniform _thePlayer;
+removeVest _thePlayer;
+removeBackpack _thePlayer;
 removeHeadgear _thePlayer;
+removeGoggles _thePlayer;
+
+_thePlayer linkItem "ItemMap";
+_thePlayer linkItem "ItemCompass";
+_thePlayer linkItem "ItemWatch";
+_thePlayer linkItem "ItemRadio";
 
 player setVariable ["parachuteIn", false];
 player setVariable ["friendlySpawn", "false"];
