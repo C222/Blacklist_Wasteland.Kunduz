@@ -571,7 +571,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=29;
+		items=47;
 		class Item0
 		{
 			position[]={6287.8481,13,6187.3652};
@@ -839,6 +839,178 @@ class Mission
 			type="Empty";
 			a=400;
 			b=400;
+		};
+		class Item29
+		{
+			position[]={3876.1897,8.4852324,544.81689};
+			name="shekka";
+			text="Shek Ka";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item30
+		{
+			position[]={3892.261,6.2259264,999.44489};
+			name="farm2";
+			text="farm2";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=50;
+			b=50;
+		};
+		class Item31
+		{
+			position[]={3269.2153,8.4330692,1744.4712};
+			name="farm3";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=50;
+			b=50;
+		};
+		class Item32
+		{
+			position[]={4113.6216,5.9451389,2495.1299};
+			name="farm4";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=50;
+			b=50;
+		};
+		class Item33
+		{
+			position[]={4623.0044,4.3281908,3107.1504};
+			name="tanpeh";
+			text="Tanpeh";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item34
+		{
+			position[]={3680.7273,8.2360058,2946.946};
+			name="andi";
+			text="Andi";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=250;
+			b=250;
+		};
+		class Item35
+		{
+			position[]={4079.8308,7.8138804,3499.0088};
+			name="taher";
+			text="Taher";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=75;
+			b=75;
+		};
+		class Item36
+		{
+			position[]={3161.8853,7.5044508,3557.9561};
+			name="kamar";
+			text="Kamar";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item37
+		{
+			position[]={3703.9077,7.6872139,3735.8101};
+			name="kamare";
+			text="Kamar East";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item38
+		{
+			position[]={3725.823,5.603909,4347.0342};
+			name="anbarteppeh";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=200;
+			b=200;
+		};
+		class Item39
+		{
+			position[]={4165.1685,6.4578094,4320.9419};
+			name="anbarteppehe";
+			text="Anbar Teppeh East";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=150;
+			b=150;
+		};
+		class Item40
+		{
+			position[]={2500.0283,5.6627393,4835.2329};
+			name="gerdan";
+			text="Gerdan";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item41
+		{
+			position[]={4816.3501,6.7266212,4823.7134};
+			name="darreh";
+			text="Darreh";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item42
+		{
+			position[]={4288.4897,4.9674931,1746.1228};
+			name="field7";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=700;
+			b=700;
+		};
+		class Item43
+		{
+			position[]={4667.9575,5.2925406,3974.6887};
+			name="field8";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=450;
+			b=450;
+		};
+		class Item44
+		{
+			position[]={3249.6401,4.6815147,4740.749};
+			name="field9";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=400;
+			b=400;
+		};
+		class Item45
+		{
+			position[]={4150.4644,5.8779039,4815.1704};
+			name="field10";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=300;
+			b=300;
+		};
+		class Item46
+		{
+			position[]={2639.9609,7.2429256,4380.4722};
+			name="farm5";
+			markerType="ELLIPSE";
+			type="Empty";
+			a=75;
+			b=75;
 		};
 	};
 };
