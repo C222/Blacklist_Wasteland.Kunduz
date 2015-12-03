@@ -87,5 +87,7 @@
 	// Launchers
 	["CUP_launch_RPG18", "CUP_RPG18", "CUP_launch_M136", "CUP_M136"],
 	// Consumables
-	[["Land_CerealsBox_F", "isFood"], ["Land_Can_V1_F", "isDrink"], ["Land_Can_V2_F", "isDrink"], ["Land_TacticalBacon_F", "isFood"], ["Land_BakedBeans_F", "isFood"], ["Land_BottlePlastic_V2_F", "isDrink"], ["Land_Canteen_F", "isDrink"], ["Land_PowderedMilk_F", "isFood"], ["Land_RiceBox_F", "isFood"]]
+	[["Land_CerealsBox_F", "isFood"], ["Land_Can_V1_F", "isDrink"], ["Land_Can_V2_F", "isDrink"], ["Land_TacticalBacon_F", "isFood"], ["Land_BakedBeans_F", "isFood"], ["Land_BottlePlastic_V2_F", "isDrink"], ["Land_Canteen_F", "isDrink"], ["Land_PowderedMilk_F", "isFood"], ["Land_RiceBox_F", "isFood"]],
+	// Backpacks
+	["CUP_B_RPGPack_Khaki", "CUP_B_USMC_AssaultPack"]
 ]
