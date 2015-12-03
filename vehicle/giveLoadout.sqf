@@ -36,7 +36,7 @@ for "_x" from 1 to 5 do
 	_vehicle addItemCargoGlobal [_loot, 1];
 };
 
-if (floor(random 2) == 1) then
+if (floor(random 5) == 1) then
 {
 	_bp = ([_backpacks] call util_fnc_pickOne) select 0;
 	_vehicle addBackpackCargoGlobal [_bp, 1];
