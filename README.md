@@ -13,4 +13,8 @@ All mods are available through the Steam Workshop!
 * [CUP Units Pack](http://steamcommunity.com/sharedfiles/filedetails/?id=497661914)
 * [CUP Vehicles Pack](http://steamcommunity.com/sharedfiles/filedetails/?id=541888371)
 * [CUP Weapons Pack](http://steamcommunity.com/sharedfiles/filedetails/?id=497660133)
-  * [ASDG JointRails](http://steamcommunity.com/sharedfiles/filedetails/?id=445567454)
+ 
+### Dependencies
+
+* [ASDG JointRails](http://steamcommunity.com/sharedfiles/filedetails/?id=445567454)
+* [CBA A3](https://steamcommunity.com/sharedfiles/filedetails/?id=450814997)
