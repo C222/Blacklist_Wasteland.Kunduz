@@ -20,7 +20,7 @@ _poses = [];
 	_varname = _item select 1;
 	_veh = _type createVehicle [0, 0, 0];
 	_veh setPos _x;
-	_veh setVariable [_varname, 1];
+	_veh setVariable [_varname, 1, true];
 } forEach _poses;
 
 while {true} do
@@ -32,7 +32,7 @@ while {true} do
 	_varname = _item select 1;
 	_veh = _type createVehicle [0, 0, 0];
 	_veh setPos _pos;
-	_veh setVariable [_varname, 1];
+	_veh setVariable [_varname, 1, true];
 	
 	sleep 1;
 };
