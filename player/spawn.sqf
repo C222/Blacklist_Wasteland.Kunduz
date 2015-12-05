@@ -96,7 +96,7 @@ _min  = _now select 4;
 // hint format ["Spawning at %1", markerText _markerName];
 [
 	markerText _markerName,
-	"Chernarus",
+	"Kunduz",
 	format ["%1-%2-%3 | %4:%5", _year, _month, _day, _hour, _min]
 ] spawn BIS_fnc_infoText;
 
