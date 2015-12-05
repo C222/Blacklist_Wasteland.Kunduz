@@ -44,7 +44,7 @@ for "_spawnCounter" from 1 to 300 do
 diag_log format ["Spawning server agents."];
 [] spawn server_fnc_mapAgent;
 [] spawn server_fnc_missionAgent;
-[] spawn server_fnc_foodAgent;
+// [] spawn server_fnc_foodAgent;
 
 sleep 5;
 readyForSpawn = true;
