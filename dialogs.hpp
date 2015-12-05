@@ -28,20 +28,20 @@ class SPAWN_DIALOG
 		class SPAWN_DIALOG_ground: RscButton
 		{
 			idc = 1600;
-			text = "Random\nGround"; //--- ToDo: Localize;
+			text = "Random Ground"; //--- ToDo: Localize;
 			x = 0.252 * safezoneW + safezoneX;
 			y = 0.696 * safezoneH + safezoneY;
-			w = 0.05 * safezoneW;
+			w = 0.075 * safezoneW;
 			h = 0.05 * safezoneH;
 			action = "closeDialog 0;";
 		};
 		class SPAWN_DIALOG_parachute: RscButton
 		{
 			idc = 1601;
-			text = "Random\nParachute"; //--- ToDo: Localize;
+			text = "Random Parachute"; //--- ToDo: Localize;
 			x = 0.252 * safezoneW + safezoneX;
 			y = 0.642 * safezoneH + safezoneY;
-			w = 0.05 * safezoneW;
+			w = 0.075 * safezoneW;
 			h = 0.05 * safezoneH;
 			action="closeDialog 0; player setVariable [""parachuteIn"", true];";
 		};
