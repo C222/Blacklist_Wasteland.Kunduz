@@ -1,6 +1,6 @@
 # Blacklist Wasteland: Kunduz
 
-## Mods Required
+## [Mods Required](http://steamcommunity.com/sharedfiles/filedetails/?id=569061624)
 
 All mods are available through the Steam Workshop!
 
