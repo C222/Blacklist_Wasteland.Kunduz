@@ -28,7 +28,7 @@ class SPAWN_DIALOG
 		class SPAWN_DIALOG_ground: RscButton
 		{
 			idc = 1600;
-			text = "Ground"; //--- ToDo: Localize;
+			text = "Random\nGround"; //--- ToDo: Localize;
 			x = 0.252 * safezoneW + safezoneX;
 			y = 0.696 * safezoneH + safezoneY;
 			w = 0.05 * safezoneW;
@@ -38,7 +38,7 @@ class SPAWN_DIALOG
 		class SPAWN_DIALOG_parachute: RscButton
 		{
 			idc = 1601;
-			text = "Parachute"; //--- ToDo: Localize;
+			text = "Random\nParachute"; //--- ToDo: Localize;
 			x = 0.252 * safezoneW + safezoneX;
 			y = 0.642 * safezoneH + safezoneY;
 			w = 0.05 * safezoneW;

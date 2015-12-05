@@ -87,7 +87,7 @@
 	// Launchers
 	["CUP_launch_RPG18", "CUP_RPG18", "CUP_launch_M136", "CUP_M136"],
 	// Consumables
-	[["Land_CerealsBox_F", "isFood"], ["Land_Can_V1_F", "isDrink"], ["Land_Can_V2_F", "isDrink"], ["Land_TacticalBacon_F", "isFood"], ["Land_BakedBeans_F", "isFood"], ["Land_BottlePlastic_V2_F", "isDrink"], ["Land_Canteen_F", "isDrink"], ["Land_PowderedMilk_F", "isFood"], ["Land_RiceBox_F", "isFood"]],
+	[["Land_CerealsBox_F", "isFood"], ["Land_Can_V1_F", "isDrink"], ["Land_Can_V2_F", "isDrink"], ["Land_TacticalBacon_F", "isFood"], ["Land_BakedBeans_F", "isFood"], ["Land_BottlePlastic_V2_F", "isDrink"], ["Land_Canteen_F", "isDrink"], ["Land_PowderedMilk_F", "isFood"], ["Land_RiceBox_F", "isFood"], ["Land_Can_V1_F", "isDrink"], ["Land_Can_V2_F", "isDrink"], ["Land_BottlePlastic_V2_F", "isDrink"], ["Land_Canteen_F", "isDrink"]],
 	// Backpacks
 	["CUP_B_RPGPack_Khaki", "CUP_B_USMC_AssaultPack", "CUP_B_AlicePack_Khaki", "CUP_B_Bergen_BAF", "CUP_B_CivPack_WDL", "CUP_B_ACRPara_m95", "CUP_B_ACRScout_m95", "CUP_B_GER_Medic_Desert", "CUP_B_TK_Medic_Desert", "CUP_B_AssaultPack_ACU", "CUP_B_AssaultPack_Black", "CUP_B_AssaultPack_Coyote", "CUP_B_MedicPack_ACU", "CUP_B_USPack_Black", "CUP_B_USPack_Coyote", "CUP_B_USMC_AssaultPack", "CUP_B_USMC_MOLLE", "CUP_B_USMC_MOLLE_WDL"]
 ]
