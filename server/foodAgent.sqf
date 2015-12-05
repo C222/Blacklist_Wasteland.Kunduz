@@ -14,16 +14,23 @@ private _poses = [];
 	_poses = _poses + ([_x] call util_fnc_getPoses);
 } forEach _houses;
 
+diag_log format ["%1 loot spawns found.", count _poses];
+
+for "_x" from 1 to 500 do
 {
+	private _lpos = (([_poses] call util_fnc_pickOne) select 0);
+	
 	private _item = (([_loot] call util_fnc_pickOne) select 0);
 	private _type = _item select 0;
 	private _varname = _item select 1;
 	private _veh = _type createVehicle [0, 0, 0];
-	_veh setPos _x;
-	// _veh setVariable [_varname, 1, true];
-} forEach _poses;
+	_veh setPos _lpos;
+	_veh setVariable [_varname, 1, true];
+	
+	sleep .1;
+};
 
-while {true} do
+/*while {true} do
 {
 	private _lpos = (([_poses] call util_fnc_pickOne) select 0);
 	
@@ -35,4 +42,4 @@ while {true} do
 	// _veh setVariable [_varname, 1, true];
 	
 	sleep 1;
-};
+};*/
