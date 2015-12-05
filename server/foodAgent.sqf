@@ -16,7 +16,7 @@ private _poses = [];
 
 diag_log format ["%1 loot spawns found.", count _poses];
 
-for "_x" from 1 to 500 do
+for "_x" from 1 to 1000 do
 {
 	private _lpos = (([_poses] call util_fnc_pickOne) select 0);
 	

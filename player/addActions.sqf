@@ -21,7 +21,7 @@ _player addAction ["Drink",
 	{
 		player playActionNow "Medic";
 		_water_level = player getVariable "waterStat";
-		_water_level = 100 min (_water_level + 10);
+		_water_level = 100 min (_water_level + 40);
 		player setVariable ["waterStat", _water_level];
 		deleteVehicle (cursorTarget);
 	},
@@ -39,7 +39,7 @@ _player addAction ["Eat",
 	{
 		player playActionNow "Medic";
 		_food_level = player getVariable "foodStat";
-		_food_level = 100 min (_food_level + 10);
+		_food_level = 100 min (_food_level + 40);
 		player setVariable ["foodStat", _food_level];
 		deleteVehicle (cursorTarget);
 	},
