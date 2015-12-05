@@ -20,19 +20,19 @@ private _poses = [];
 	private _varname = _item select 1;
 	private _veh = _type createVehicle [0, 0, 0];
 	_veh setPos _x;
-	_veh setVariable [_varname, 1, true];
+	// _veh setVariable [_varname, 1, true];
 } forEach _poses;
 
 while {true} do
 {
-	private _pos = (([_poses] call util_fnc_pickOne) select 0);
+	private _lpos = (([_poses] call util_fnc_pickOne) select 0);
 	
 	private _item = (([_loot] call util_fnc_pickOne) select 0);
 	private _type = _item select 0;
 	private _varname = _item select 1;
 	private _veh = _type createVehicle [0, 0, 0];
-	_veh setPos _pos;
-	_veh setVariable [_varname, 1, true];
+	_veh setPos _lpos;
+	// _veh setVariable [_varname, 1, true];
 	
 	sleep 1;
 };
