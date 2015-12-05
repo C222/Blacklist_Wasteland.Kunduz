@@ -10,7 +10,7 @@ disabledAI = 1;
 author = "C222";
 saving = 0;
 
-respawnTemplates[] = {"Revive"};
+//respawnTemplates[] = {"Revive"};
 
 class CfgFunctions
 {
