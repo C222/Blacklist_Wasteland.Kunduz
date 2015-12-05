@@ -28,13 +28,13 @@ if (side player == east) then
 		};
 	} forEach ([getPos player, 2000] call util_fnc_playersWithin);
 	
-	{
+	/*{
 		{
 			drawIcon3D ["\a3\ui_f\data\gui\cfg\cursors\hc_overfriendly_gs.paa",
 			iconColor,
 			_x, 1.0, 1.0, 0, "", 1, 0.05, "TahomaB"];
 		} forEach ([_x] call util_fnc_getPoses);
-	}forEach (nearestObjects [getPos player, ["House"], 50]);
+	}forEach (nearestObjects [getPos player, ["House"], 50]);*/
 	
 }
 ] call BIS_fnc_addStackedEventHandler;
