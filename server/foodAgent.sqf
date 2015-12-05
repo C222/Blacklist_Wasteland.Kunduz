@@ -30,8 +30,11 @@ for "_x" from 1 to 1000 do
 	sleep .1;
 };
 
-/*while {true} do
+private _sleep = 240/((playersNumber west + playersNumber east + playersNumber civilian)+1);
+
+while {true} do
 {
+	_sleep = 240/((playersNumber west + playersNumber east + playersNumber civilian)+1);
 	private _lpos = (([_poses] call util_fnc_pickOne) select 0);
 	
 	private _item = (([_loot] call util_fnc_pickOne) select 0);
@@ -39,7 +42,9 @@ for "_x" from 1 to 1000 do
 	private _varname = _item select 1;
 	private _veh = _type createVehicle [0, 0, 0];
 	_veh setPos _lpos;
-	// _veh setVariable [_varname, 1, true];
+	_veh setVariable [_varname, 1, true];
 	
-	sleep 1;
-};*/
+	diag_log format ["%1 %2", _lpos, _sleep];
+	
+	sleep _sleep;
+};
