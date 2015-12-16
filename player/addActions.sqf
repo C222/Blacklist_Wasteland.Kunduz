@@ -17,7 +17,7 @@ _player addAction ["Pick Up",
 	and ((player distance cursorTarget) < 10)"
 ];
 
-_player addAction ["Drink",
+_player addAction ["Drink (+40)",
 	{
 		player playActionNow "Medic";
 		_water_level = player getVariable "waterStat";
@@ -35,7 +35,7 @@ _player addAction ["Drink",
 	and ((player distance cursorTarget) < 5)"
 ];
 
-_player addAction ["Eat",
+_player addAction ["Eat (+40)",
 	{
 		player playActionNow "Medic";
 		_food_level = player getVariable "foodStat";
