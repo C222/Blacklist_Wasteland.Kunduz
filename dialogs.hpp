@@ -109,7 +109,7 @@ class PLAYER_MENU
 		{
 			idc = 2002;
 			type = CT_STRUCTURED_TEXT;
-			size = 0.040;
+			size = 0.120;
 			// x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
 			// y = safeZoneY + (safeZoneH * (1 - (0.20 / SafeZoneH)));
 			x = 0.327 * safezoneW + safezoneX;
