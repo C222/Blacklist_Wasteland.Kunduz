@@ -93,7 +93,7 @@ class PLAYER_MENU
 			y = 0.696 * safezoneH + safezoneY;
 			w = 0.075 * safezoneW;
 			h = 0.05 * safezoneH;
-			action = "closeDialog 0;";
+			action="if (player getVariable ""foods"" > 0) then {player playActionNow ""Medic""; player setVariable [""foods"", (player getVariable ""foods"") - 1]; _food_level = player getVariable ""foodStat""; _food_level = 100 min (_food_level + 40); player setVariable [""foodStat"", _food_level]; [findDisplay 1993] spawn util_fnc_updatePlayerMenu;};";
 		};
 		class PLAYER_MENU_drink: RscButton
 		{
@@ -103,7 +103,7 @@ class PLAYER_MENU
 			y = 0.642 * safezoneH + safezoneY;
 			w = 0.075 * safezoneW;
 			h = 0.05 * safezoneH;
-			action="closeDialog 0;";
+			action="if (player getVariable ""drinks"" > 0) then {player playActionNow ""Medic""; player setVariable [""drinks"", (player getVariable ""drinks"") - 1]; _water_level = player getVariable ""waterStat""; _water_level = 100 min (_water_level + 40); player setVariable [""waterStat"", _water_level]; [findDisplay 1993] spawn util_fnc_updatePlayerMenu;};";
 		};
 		class PLAYER_MENU_food:RscText
 		{

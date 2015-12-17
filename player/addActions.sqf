@@ -24,6 +24,7 @@ if (_player getVariable["hasActions", -1] < 0) then
 			_drink_count = player getVariable "drinks";
 			player setVariable ["drinks", _drink_count + 1];
 			deleteVehicle (cursorTarget);
+			player PlayActionNow "TakeFlag";
 			/*player playActionNow "Medic";
 			_water_level = player getVariable "waterStat";
 			_water_level = 100 min (_water_level + 40);
@@ -46,6 +47,7 @@ if (_player getVariable["hasActions", -1] < 0) then
 			_food_count = player getVariable "foods";
 			player setVariable ["foods", _food_count + 1];
 			deleteVehicle (cursorTarget);
+			player PlayActionNow "TakeFlag";
 			/*player playActionNow "Medic";
 			_food_level = player getVariable "foodStat";
 			_food_level = 100 min (_food_level + 40);
@@ -68,11 +70,7 @@ if (_player getVariable["hasActions", -1] < 0) then
 			_drink_count = player getVariable "drinks";
 			_food_count = player getVariable "foods";
 			_ok = createDialog "PLAYER_MENU";
-			_ui = findDisplay 1993;
-			_drink_hud = _ui displayCtrl 2003;
-			_drink_hud ctrlSetStructuredText parseText format ["%1 <img size='1' image='\a3\ui_f\data\IGUI\Cfg\Actions\ico_cpt_thtl_idl_ca.paa'/><br/>", _drink_count];
-			_eat_hud = _ui displayCtrl 2002;
-			_eat_hud ctrlSetStructuredText parseText format ["%1 <img size='1' image='images\food.paa'/><br/>", _food_count];
+			[findDisplay 1993] spawn util_fnc_updatePlayerMenu;
 		},
 		"",
 		-80,

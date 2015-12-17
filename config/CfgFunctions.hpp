@@ -65,6 +65,10 @@ class util
 		{
 			file = "util\getPoses.sqf";
 		};
+		class updatePlayerMenu
+		{
+			file = "util\updatePlayerMenu.sqf";
+		};
 	};
 };
 
