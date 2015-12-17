@@ -65,12 +65,12 @@ class PLAYER_MENU
 {
 	idd = 1993;
 	movingenable = true;
-	onLoad="uiNamespace setVariable ['SPAWN_DIALOG', _this select 0]";
+	onLoad="";
 	class Controls
 	{
 		class PLAYER_MENU_box: BOX
 		{
-			idc = 1801;
+			idc = 1901;
 			x = 0.25 * safezoneW + safezoneX;
 			y = 0.25 * safezoneH + safezoneY;
 			w = 0.5 * safezoneW;
@@ -78,42 +78,51 @@ class PLAYER_MENU
 		};
 		class PLAYER_MENU_frame: RscFrame
 		{
-			idc = 1800;
-			text = "Spawn"; //--- ToDo: Localize;
+			idc = 1900;
+			text = "Player Menu"; //--- ToDo: Localize;
 			x = 0.25 * safezoneW + safezoneX;
 			y = 0.25 * safezoneH + safezoneY;
 			w = 0.5 * safezoneW;
 			h = 0.5 * safezoneH;
 		};
-		class PLAYER_MENU_ground: RscButton
+		class PLAYER_MENU_eat: RscButton
 		{
-			idc = 1600;
-			text = "Random Ground"; //--- ToDo: Localize;
+			idc = 2000;
+			text = "Eat Food (+40)"; //--- ToDo: Localize;
 			x = 0.252 * safezoneW + safezoneX;
 			y = 0.696 * safezoneH + safezoneY;
 			w = 0.075 * safezoneW;
 			h = 0.05 * safezoneH;
 			action = "closeDialog 0;";
 		};
-		class PLAYER_MENU_parachute: RscButton
+		class PLAYER_MENU_drink: RscButton
 		{
-			idc = 1601;
-			text = "Random Parachute"; //--- ToDo: Localize;
+			idc = 2001;
+			text = "Drink Water (+40)"; //--- ToDo: Localize;
 			x = 0.252 * safezoneW + safezoneX;
 			y = 0.642 * safezoneH + safezoneY;
 			w = 0.075 * safezoneW;
 			h = 0.05 * safezoneH;
 			action="closeDialog 0;";
 		};
-		class PLAYER_MENU_droplist: RscListbox
+		class PLAYER_MENU_food:RscText
 		{
-			idc = 1602;
-			text = ""; //--- ToDo: Localize;
-			x = 0.35 * safezoneW + safezoneX;
-			y = 0.28 * safezoneH + safezoneY;
-			w = 0.1 * safezoneW;
-			h = 0.45 * safezoneH;
-			onLBDblClick = "closeDialog 0;";
+			idc = 2002;
+			type = CT_STRUCTURED_TEXT;
+			size = 0.040;
+			// x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
+			// y = safeZoneY + (safeZoneH * (1 - (0.20 / SafeZoneH)));
+			x = 0.327 * safezoneW + safezoneX;
+			y = 0.696 * safezoneH + safezoneY;
+			w = 0.14; h = 0.20;
+			colorText[] = {1,1,1,1};
+			lineSpacing = 3;
+			colorBackground[] = {0,0,0,0};
+			text = "0";
+			shadow = 2;
+			class Attributes {
+				align = "left";
+			};
 		};
 		////////////////////////////////////////////////////////
 		// GUI EDITOR OUTPUT END
