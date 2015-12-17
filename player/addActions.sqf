@@ -55,5 +55,17 @@ if (_player getVariable["hasActions", -1] < 0) then
 		and ((player distance cursorTarget) < 5)"
 	];
 
+	_player addAction ["Player Menu",
+		{
+			_ok = createDialog "PLAYER_MENU";
+		},
+		"",
+		-80,
+		false,
+		true,
+		"User1",
+		""
+	];
+
 	_player setVariable ["hasActions", 1];
 };

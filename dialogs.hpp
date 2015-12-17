@@ -61,6 +61,66 @@ class SPAWN_DIALOG
 	};
 };
 
+class PLAYER_MENU
+{
+	idd = 1993;
+	movingenable = true;
+	onLoad="uiNamespace setVariable ['SPAWN_DIALOG', _this select 0]";
+	class Controls
+	{
+		class PLAYER_MENU_box: BOX
+		{
+			idc = 1801;
+			x = 0.25 * safezoneW + safezoneX;
+			y = 0.25 * safezoneH + safezoneY;
+			w = 0.5 * safezoneW;
+			h = 0.5 * safezoneH;
+		};
+		class PLAYER_MENU_frame: RscFrame
+		{
+			idc = 1800;
+			text = "Spawn"; //--- ToDo: Localize;
+			x = 0.25 * safezoneW + safezoneX;
+			y = 0.25 * safezoneH + safezoneY;
+			w = 0.5 * safezoneW;
+			h = 0.5 * safezoneH;
+		};
+		class PLAYER_MENU_ground: RscButton
+		{
+			idc = 1600;
+			text = "Random Ground"; //--- ToDo: Localize;
+			x = 0.252 * safezoneW + safezoneX;
+			y = 0.696 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.05 * safezoneH;
+			action = "closeDialog 0;";
+		};
+		class PLAYER_MENU_parachute: RscButton
+		{
+			idc = 1601;
+			text = "Random Parachute"; //--- ToDo: Localize;
+			x = 0.252 * safezoneW + safezoneX;
+			y = 0.642 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.05 * safezoneH;
+			action="closeDialog 0;";
+		};
+		class PLAYER_MENU_droplist: RscListbox
+		{
+			idc = 1602;
+			text = ""; //--- ToDo: Localize;
+			x = 0.35 * safezoneW + safezoneX;
+			y = 0.28 * safezoneH + safezoneY;
+			w = 0.1 * safezoneW;
+			h = 0.45 * safezoneH;
+			onLBDblClick = "closeDialog 0;";
+		};
+		////////////////////////////////////////////////////////
+		// GUI EDITOR OUTPUT END
+		////////////////////////////////////////////////////////
+	};
+};
+
 class API_STORE {
 	idd = 1013;
 	class Controls
