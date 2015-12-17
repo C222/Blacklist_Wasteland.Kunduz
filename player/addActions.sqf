@@ -24,7 +24,6 @@ if (_player getVariable["hasActions", -1] < 0) then
 			_drink_count = player getVariable "drinks";
 			player setVariable ["drinks", _drink_count + 1];
 			deleteVehicle (cursorTarget);
-			ctrlSetText [2003, format ["%1", _drink_count]];
 			/*player playActionNow "Medic";
 			_water_level = player getVariable "waterStat";
 			_water_level = 100 min (_water_level + 40);
@@ -47,7 +46,6 @@ if (_player getVariable["hasActions", -1] < 0) then
 			_food_count = player getVariable "foods";
 			player setVariable ["foods", _food_count + 1];
 			deleteVehicle (cursorTarget);
-			ctrlSetText [2002, format ["%1", _food_count]];
 			/*player playActionNow "Medic";
 			_food_level = player getVariable "foodStat";
 			_food_level = 100 min (_food_level + 40);
@@ -67,7 +65,11 @@ if (_player getVariable["hasActions", -1] < 0) then
 
 	_player addAction ["Player Menu",
 		{
+			_drink_count = player getVariable "drinks";
+			_food_count = player getVariable "foods";
 			_ok = createDialog "PLAYER_MENU";
+			ctrlSetText [2003, format ["%1", _drink_count]];
+			ctrlSetText [2002, format ["%1", _food_count]];
 		},
 		"",
 		-80,

@@ -118,7 +118,7 @@ class PLAYER_MENU
 			colorText[] = {1,1,1,1};
 			lineSpacing = 3;
 			colorBackground[] = {0,0,0,0};
-			text = "0";
+			text = "-";
 			shadow = 2;
 			class Attributes {
 				align = "left";
@@ -137,7 +137,7 @@ class PLAYER_MENU
 			colorText[] = {1,1,1,1};
 			lineSpacing = 3;
 			colorBackground[] = {0,0,0,0};
-			text = "0";
+			text = "-";
 			shadow = 2;
 			class Attributes {
 				align = "left";
