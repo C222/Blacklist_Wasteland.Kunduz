@@ -21,11 +21,15 @@ if (_player getVariable["hasActions", -1] < 0) then
 
 	_player addAction ["Drink (+40)",
 		{
-			player playActionNow "Medic";
+			_drink_count = player getVariable "drinks";
+			player setVariable ["drinks", _drink_count + 1];
+			deleteVehicle (cursorTarget);
+			ctrlSetText [2003, format ["%1", _drink_count]];
+			/*player playActionNow "Medic";
 			_water_level = player getVariable "waterStat";
 			_water_level = 100 min (_water_level + 40);
 			player setVariable ["waterStat", _water_level];
-			deleteVehicle (cursorTarget);
+			deleteVehicle (cursorTarget);*/
 		},
 		"",
 		1,
@@ -34,16 +38,21 @@ if (_player getVariable["hasActions", -1] < 0) then
 		"",
 		"(vehicle player == player)
 		and ((cursorTarget getVariable [""isDrink"", -1]) >= 0)
-		and ((player distance cursorTarget) < 5)"
+		and ((player distance cursorTarget) < 5)
+		and(((player getVariable ""foods"") + (player getVariable ""drinks"")) < 4)"
 	];
 
 	_player addAction ["Eat (+40)",
 		{
-			player playActionNow "Medic";
+			_food_count = player getVariable "foods";
+			player setVariable ["foods", _food_count + 1];
+			deleteVehicle (cursorTarget);
+			ctrlSetText [2002, format ["%1", _food_count]];
+			/*player playActionNow "Medic";
 			_food_level = player getVariable "foodStat";
 			_food_level = 100 min (_food_level + 40);
 			player setVariable ["foodStat", _food_level];
-			deleteVehicle (cursorTarget);
+			deleteVehicle (cursorTarget);*/
 		},
 		"",
 		1,
@@ -52,7 +61,8 @@ if (_player getVariable["hasActions", -1] < 0) then
 		"",
 		"(vehicle player == player)
 		and ((cursorTarget getVariable [""isFood"", -1]) >= 0)
-		and ((player distance cursorTarget) < 5)"
+		and ((player distance cursorTarget) < 5)
+		and(((player getVariable ""foods"") + (player getVariable ""drinks"")) < 4)"
 	];
 
 	_player addAction ["Player Menu",

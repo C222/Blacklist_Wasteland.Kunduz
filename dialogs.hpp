@@ -109,11 +109,30 @@ class PLAYER_MENU
 		{
 			idc = 2002;
 			type = CT_STRUCTURED_TEXT;
-			size = 0.120;
+			size = 0.080;
 			// x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
 			// y = safeZoneY + (safeZoneH * (1 - (0.20 / SafeZoneH)));
 			x = 0.327 * safezoneW + safezoneX;
 			y = 0.696 * safezoneH + safezoneY;
+			w = 0.14; h = 0.20;
+			colorText[] = {1,1,1,1};
+			lineSpacing = 3;
+			colorBackground[] = {0,0,0,0};
+			text = "0";
+			shadow = 2;
+			class Attributes {
+				align = "left";
+			};
+		};
+		class PLAYER_MENU_water:RscText
+		{
+			idc = 2003;
+			type = CT_STRUCTURED_TEXT;
+			size = 0.080;
+			// x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
+			// y = safeZoneY + (safeZoneH * (1 - (0.20 / SafeZoneH)));
+			x = 0.327 * safezoneW + safezoneX;
+			y = 0.642 * safezoneH + safezoneY;
 			w = 0.14; h = 0.20;
 			colorText[] = {1,1,1,1};
 			lineSpacing = 3;

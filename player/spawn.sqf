@@ -82,6 +82,8 @@ if (player getVariable "parachuteIn") then
 _thePlayer setPos _spawnPos;
 _thePlayer setVariable ["waterStat", 100];
 _thePlayer setVariable ["foodStat", 100];
+_thePlayer setVariable ["foods", 0];
+_thePlayer setVariable ["drinks", 0];
 _thePlayer setDamage 0;
 
 _now = date;
