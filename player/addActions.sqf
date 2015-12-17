@@ -70,7 +70,7 @@ if (_player getVariable["hasActions", -1] < 0) then
 			_drink_count = player getVariable "drinks";
 			_food_count = player getVariable "foods";
 			_ok = createDialog "PLAYER_MENU";
-			[findDisplay 1993] spawn util_fnc_updatePlayerMenu;
+			[1993] spawn util_fnc_updatePlayerMenu;
 		},
 		"",
 		-80,
