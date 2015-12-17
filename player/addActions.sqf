@@ -19,7 +19,7 @@ if (_player getVariable["hasActions", -1] < 0) then
 		and ((player distance cursorTarget) < 10)"
 	];
 
-	_player addAction ["Drink (+40)",
+	_player addAction ["Take Drink",
 		{
 			_drink_count = player getVariable "drinks";
 			player setVariable ["drinks", _drink_count + 1];
@@ -41,7 +41,7 @@ if (_player getVariable["hasActions", -1] < 0) then
 		and(((player getVariable ""foods"") + (player getVariable ""drinks"")) < 4)"
 	];
 
-	_player addAction ["Eat (+40)",
+	_player addAction ["Take Food",
 		{
 			_food_count = player getVariable "foods";
 			player setVariable ["foods", _food_count + 1];
@@ -68,8 +68,11 @@ if (_player getVariable["hasActions", -1] < 0) then
 			_drink_count = player getVariable "drinks";
 			_food_count = player getVariable "foods";
 			_ok = createDialog "PLAYER_MENU";
-			ctrlSetText [2003, format ["%1", _drink_count]];
-			ctrlSetText [2002, format ["%1", _food_count]];
+			_ui = findDisplay 1993;
+			_drink_hud = _ui displayCtrl 2003;
+			_drink_hud ctrlSetStructuredText parseText format ["%1 <img size='1' image='\a3\ui_f\data\IGUI\Cfg\Actions\ico_cpt_thtl_idl_ca.paa'/><br/>", _drink_count];
+			_eat_hud = _ui displayCtrl 2002;
+			_eat_hud ctrlSetStructuredText parseText format ["%1 <img size='1' image='images\food.paa'/><br/>", _food_count];
 		},
 		"",
 		-80,
