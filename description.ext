@@ -3,8 +3,8 @@
 
 #include "plank\plank.hpp"
 
-version = "0.8.5";
-onLoadMission = "Blacklist Wasteland [0.8.5] - Kunduz";
+version = "0.9.0";
+onLoadMission = "Blacklist Wasteland [0.9.0] - Kunduz";
 respawn = "BASE";
 disabledAI = 1;
 author = "C222";
