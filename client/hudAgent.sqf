@@ -9,6 +9,7 @@ while {true} do
 	_health_hud = _ui displayCtrl 1700;
 	_water_hud = _ui displayCtrl 1701;
 	_food_hud = _ui displayCtrl 1702;
+	_money_hud = _ui displayCtrl 1703;
 	// _hudVehicle = _ui displayCtrl 1701;
 
 	//Calculate Health 0 - 100
@@ -74,6 +75,10 @@ while {true} do
 	_food_hud ctrlSetStructuredText parseText format ["%1 <img size='1' image='images\food.paa'/><br/>", _food_level];
 	_food_hud ctrlSetTextColor [1- (_food_level/100), (_food_level/100), 0, 1];
 	_food_hud ctrlCommit 0;
+	
+	_money_hud ctrlSetStructuredText parseText format ["$ %1<br/>", 0];
+	_money_hud ctrlSetTextColor [0, 1, 0, 1];
+	_money_hud ctrlCommit 0;
 	
 	sleep 1;
 };

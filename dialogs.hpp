@@ -71,25 +71,25 @@ class PLAYER_MENU
 		class PLAYER_MENU_box: BOX
 		{
 			idc = 1901;
-			x = 0.25 * safezoneW + safezoneX;
+			x = 0.05 * safezoneW + safezoneX;
 			y = 0.25 * safezoneH + safezoneY;
-			w = 0.5 * safezoneW;
+			w = 0.13 * safezoneW;
 			h = 0.5 * safezoneH;
 		};
 		class PLAYER_MENU_frame: RscFrame
 		{
 			idc = 1900;
 			text = "Player Menu"; //--- ToDo: Localize;
-			x = 0.25 * safezoneW + safezoneX;
+			x = 0.05 * safezoneW + safezoneX;
 			y = 0.25 * safezoneH + safezoneY;
-			w = 0.5 * safezoneW;
+			w = 0.13 * safezoneW;
 			h = 0.5 * safezoneH;
 		};
 		class PLAYER_MENU_eat: RscButton
 		{
 			idc = 2000;
 			text = "Eat Food (+40)"; //--- ToDo: Localize;
-			x = 0.252 * safezoneW + safezoneX;
+			x = 0.052 * safezoneW + safezoneX;
 			y = 0.696 * safezoneH + safezoneY;
 			w = 0.075 * safezoneW;
 			h = 0.05 * safezoneH;
@@ -99,26 +99,106 @@ class PLAYER_MENU
 		{
 			idc = 2001;
 			text = "Drink Water (+40)"; //--- ToDo: Localize;
-			x = 0.252 * safezoneW + safezoneX;
+			x = 0.052 * safezoneW + safezoneX;
 			y = 0.642 * safezoneH + safezoneY;
 			w = 0.075 * safezoneW;
 			h = 0.05 * safezoneH;
 			action="if (player getVariable ""drinks"" > 0) then {player playActionNow ""Medic""; player setVariable [""drinks"", (player getVariable ""drinks"") - 1]; _water_level = player getVariable ""waterStat""; _water_level = 100 min (_water_level + 40); player setVariable [""waterStat"", _water_level]; [1993] spawn util_fnc_updatePlayerMenu;};";
 		};
-		class PLAYER_MENU_food:RscText
+		class PLAYER_MENU_vd_close: RscButton
 		{
 			idc = 2002;
+			text = "Close"; //--- ToDo: Localize;
+			x = 0.052 * safezoneW + safezoneX;
+			y = 0.3 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.0167 * safezoneH;
+			action="setViewDistance 500;";
+		};
+		class PLAYER_MENU_vd_med: RscButton
+		{
+			idc = 2003;
+			text = "Medium"; //--- ToDo: Localize;
+			x = 0.052 * safezoneW + safezoneX;
+			y = 0.318 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.0167 * safezoneH;
+			action="setViewDistance 1000;";
+		};
+		class PLAYER_MENU_vd_far: RscButton
+		{
+			idc = 2004;
+			text = "Far"; //--- ToDo: Localize;
+			x = 0.052 * safezoneW + safezoneX;
+			y = 0.336 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.0167 * safezoneH;
+			action="setViewDistance 2000;";
+		};
+		class PLAYER_MENU_vd_farthest: RscButton
+		{
+			idc = 2005;
+			text = "Farthest"; //--- ToDo: Localize;
+			x = 0.052 * safezoneW + safezoneX;
+			y = 0.354 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.0167 * safezoneH;
+			action="setViewDistance 3000;";
+		};
+		class PLAYER_MENU_vd_title:RscText
+		{
+			idc = 2006;
+			type = CT_STRUCTURED_TEXT;
+			size = 0.030;
+			// x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
+			// y = safeZoneY + (safeZoneH * (1 - (0.20 / SafeZoneH)));
+			x = 0.052 * safezoneW + safezoneX;
+			y = 0.282 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.0167 * safezoneH;
+			colorText[] = {1,1,1,1};
+			lineSpacing = 3;
+			colorBackground[] = {0,0,0,0};
+			text = "View Distance";
+			shadow = 2;
+			class Attributes {
+				align = "center";
+			};
+		};
+		class PLAYER_MENU_cons_title:RscText
+		{
+			idc = 2009;
+			type = CT_STRUCTURED_TEXT;
+			size = 0.030;
+			// x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
+			// y = safeZoneY + (safeZoneH * (1 - (0.20 / SafeZoneH)));
+			x = 0.052 * safezoneW + safezoneX;
+			y = 0.624 * safezoneH + safezoneY;
+			w = 0.075 * safezoneW;
+			h = 0.0167 * safezoneH;
+			colorText[] = {1,1,1,1};
+			lineSpacing = 3;
+			colorBackground[] = {0,0,0,0};
+			text = "Consumables";
+			shadow = 2;
+			class Attributes {
+				align = "center";
+			};
+		};
+		class PLAYER_MENU_food:RscText
+		{
+			idc = 2007;
 			type = CT_STRUCTURED_TEXT;
 			size = 0.080;
 			// x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
 			// y = safeZoneY + (safeZoneH * (1 - (0.20 / SafeZoneH)));
-			x = 0.327 * safezoneW + safezoneX;
+			x = 0.127 * safezoneW + safezoneX;
 			y = 0.696 * safezoneH + safezoneY;
 			w = 0.14; h = 0.20;
 			colorText[] = {1,1,1,1};
 			lineSpacing = 3;
 			colorBackground[] = {0,0,0,0};
-			text = "-";
+			text = "0 <img size='1' image='images\food.paa'/><br/>";
 			shadow = 2;
 			class Attributes {
 				align = "left";
@@ -126,18 +206,18 @@ class PLAYER_MENU
 		};
 		class PLAYER_MENU_water:RscText
 		{
-			idc = 2003;
+			idc = 2008;
 			type = CT_STRUCTURED_TEXT;
 			size = 0.080;
 			// x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
 			// y = safeZoneY + (safeZoneH * (1 - (0.20 / SafeZoneH)));
-			x = 0.327 * safezoneW + safezoneX;
+			x = 0.127 * safezoneW + safezoneX;
 			y = 0.642 * safezoneH + safezoneY;
 			w = 0.14; h = 0.20;
 			colorText[] = {1,1,1,1};
 			lineSpacing = 3;
 			colorBackground[] = {0,0,0,0};
-			text = "-";
+			text = "0 <img size='1' image='\a3\ui_f\data\IGUI\Cfg\Actions\ico_cpt_thtl_idl_ca.paa'/><br/>";
 			shadow = 2;
 			class Attributes {
 				align = "left";
@@ -182,23 +262,6 @@ class RscTitles
 		onLoad = "uiNamespace setVariable ['player_HUD', _this select 0]";
 		
 		class controlsBackground {
-			/*class WastelandHud_Vehicle:RscText
-			{
-				idc = hud_vehicle_idc;
-				type = CT_STRUCTURED_TEXT;
-				size = 0.040;
-				x = safeZoneX + (safeZoneW * (1 - (0.42 / SafeZoneW)));
-							y = safeZoneY + (safeZoneH * (1 - (0.30 / SafeZoneH)));
-				w = 0.4; h = 0.65;
-				colorText[] = {1,1,1,1};
-				lineSpacing = 3;
-				colorBackground[] = {0,0,0,0};
-				text = "";
-				shadow = 2;
-				class Attributes {
-					align = "right";
-				};
-			};*/
 			class health_HUD:RscText
 			{
 				idc = 1700;
@@ -250,34 +313,23 @@ class RscTitles
 					align = "right";
 				};
 			};
+			class money_HUD:RscText
+			{
+				idc = 1703;
+				type = CT_STRUCTURED_TEXT;
+				size = 0.040;
+				x = safeZoneX + (safeZoneW * (1 - (0.16 / SafeZoneW)));
+				y = safeZoneY + (safeZoneH * (1 - (0.089 / SafeZoneH)));
+				w = 0.14; h = 0.20;
+				colorText[] = {0,1,0,1};
+				lineSpacing = 3;
+				colorBackground[] = {0,0,0,0};
+				text = "$ 0<br/>";
+				shadow = 2;
+				class Attributes {
+					align = "right";
+				};
+			};
 		};
 	};
 };
-
-/*class player_HUD
-{
-	idd = 1700;
-	name= "player_HUD";
-	onLoad = "uiNamespace setVariable ['player_HUD', _this select 0]";
-	class Controls
-	{
-		class health_txt: RscText
-		{
-			idc = 1701;
-			text = "100"; //--- ToDo: Localize;
-			x = 0.953907 * safezoneW + safezoneX;
-			y = 0.938889 * safezoneH + safezoneY;
-			w = 0.04125 * safezoneW;
-			h = 0.055 * safezoneH;
-		};
-		class health_img: RscPicture
-		{
-			idc = 1702;
-			text = "\a3\ui_f\data\IGUI\Cfg\Cursors\unithealer_ca.paa";
-			x = 0.895311 * safezoneW + safezoneX;
-			y = 0.940974 * safezoneH + safezoneY;
-			w = 0.04125 * safezoneW;
-			h = 0.055 * safezoneH;
-		};
-	};
-};*/
